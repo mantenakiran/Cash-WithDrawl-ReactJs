@@ -1,0 +1,122 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  height: 550px;
+  width: 500px;
+  padding: 30px;
+}
+@media screen and (max-width: 576px) {
+  .inner-container {
+    height: 400px;
+    width: 300px;
+    padding: 13px;
+  }
+}
+.s-char {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-size: 20px;
+  background-color: #c7d2fe;
+  padding: 10px;
+  width: 65px;
+  height: 65px;
+  border-radius: 250px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .s-char {
+    font-size: 15px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding-left: 11px;
+    padding-top: 15px;
+  }
+}
+.name-container {
+  display: flex;
+}
+.name {
+  font-family: 'Roboto';
+  color: #c7d2fe;
+  font-size: 24px;
+  align-self: center;
+  margin-left: 13px;
+}
+@media screen and (max-width: 576px) {
+  .name {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+}
+.your-balance {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 22px;
+  align-self: center;
+  margin-left: 13px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .your-balance {
+    font-size: 15px;
+  }
+}
+.money-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 34px;
+  align-self: center;
+  margin-left: 13px;
+  font-weight: 500;
+}
+.rupees-text {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 16px;
+  margin-left: 13px;
+  font-weight: 500;
+  padding-top: 0px;
+}
+.withdraw {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 25px;
+  align-self: center;
+  margin-left: 13px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+  .balance {
+    font-size: 25px;
+  }
+  .rupees-text {
+    font-size: 14px;
+  }
+  .withdraw {
+    font-size: 22px;
+  }
+}
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
